@@ -27,7 +27,7 @@ void print(int a[], int n) //function to print array elements
         }     
     }     
  }  
-void main ()    
+int main ()    
 {    
     int i, j,temp;     
     int a[5] = { 10, 35, 32, 13, 26};     
@@ -81,7 +81,7 @@ int main()
     int arr[] = { 64, 25, 12, 22, 11 };
     int n = sizeof(arr) / sizeof(arr[0]);
     selectionSort(arr, n);
-    cout << "Sorted array: \n";
+    cout << "selection Sorted array: \n";
     printArray(arr, n);
     return 0;
 }
