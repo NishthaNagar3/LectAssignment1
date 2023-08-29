@@ -53,7 +53,7 @@ void selectionSort(int arr[], int n)
     // unsorted subarray
     for (i = 0; i < n - 1; i++) {
  
-        // Find the minimum element in
+        // Find the minimum element inmerge
         // unsorted array
         min_idx = i;
         for (j = i + 1; j < n; j++) {
